@@ -18,7 +18,7 @@ def move(my_history, their_history, my_score, their_score):
     Returns 'c' or 'b'. 
     '''
         
-    if my_score < their_score and their_history='cc':
+    if my_score < their_score and their_history=='cc':
         return 'b'
     if my_score > their_score:
         return 'b'
