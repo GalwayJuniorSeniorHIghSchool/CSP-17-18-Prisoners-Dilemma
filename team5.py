@@ -17,10 +17,6 @@ def move(my_history, their_history, my_score, their_score):
     Make my move.
     Returns 'c' or 'b'. 
     '''
-    a=['c','b']
-    b=[
-    if my_score==0:
-        random.choice(a)
         
     if my_score < their_score and their_history='cc':
         return 'b'
